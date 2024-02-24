@@ -1,0 +1,92 @@
+/* :hover: Styles an element when the user hovers over it with the mouse. */
+button:hover {
+  background-color: #ff0000;
+  /* cursor: pointer; */
+}
+
+/* :active: Styles an element while it's being activated (clicked or tapped). */
+button:active {
+  background-color: #00ff00;
+}
+
+
+input{
+  outline: none;
+}
+
+/* :focus: Styles an element when it gains focus, such as when it's selected via keyboard navigation. */
+input:focus {
+  border-color: #ffea00;
+}
+
+
+
+
+/* :first-child: Selects the first child element of its parent. */
+ul li:first-child {
+  font-weight: bold;
+}
+
+
+/* :last-child: Selects the last child element of its parent. */
+ul li:last-child {
+  font-style: italic;
+}
+
+
+/* :nth-child(): Selects elements based on their position within a parent element. You can specify an exact number, a formula (like even or odd), or an equation. */
+/* Selects every even-numbered paragraph */
+p:nth-child(even) {
+  background-color: #9febd9;
+}
+
+
+/* :not(): Selects elements that do not match a given selector. */
+/* Selects all divs that do not have the class 'special' */
+div:not(.special) {
+  border: 1px solid #cccccc;
+}
+
+
+
+
+/*
+
+  Pseudo element
+
+*/
+
+
+/* input::placeholder {
+  color: red;
+} */
+
+/* ::before and ::after: These pseudo-elements allow you to insert content before or after the content of an element. They are often used in conjunction with the content property to add decorative elements or additional text. */
+/* p::before {
+  content: "Before ";
+  font-weight: bold;
+} */
+
+/* p::after {
+  content: " After";
+  font-style: italic;
+} */
+
+
+/* ::first-line and ::first-letter: These pseudo-elements allow you to style the first line or the first letter of an element's content. */
+/* p::first-line {
+  font-weight: bold;
+  font-size: 120%;
+} */
+
+/* p::first-letter {
+  font-size: 200%;
+} */
+
+
+/* ::selection: This pseudo-element targets the portion of text that has been selected by the user. You can style the background color, text color, etc., of the selected text. */
+
+::selection {
+  background-color: yellow;
+  color: black;
+}

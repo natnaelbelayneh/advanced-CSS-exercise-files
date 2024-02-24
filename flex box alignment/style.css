@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  background: #f4f4f4;
+  border: #ccc solid 2px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+}
+
+
+
+/* step 1 */
+.flex-container {
+  border: 3px solid red;
+}
+
+
+
+
+
+/* gap | align-items | justify-content | align-self | justify-self*/

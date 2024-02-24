@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: gray;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  display: none;
+}
+
+/* Smartphones  only screen for screen devices not print and others*/
+@media only screen and (max-width: 500px) {
+  body {
+    background: red;
+  }
+
+  #smartphone h1 {
+    display: block;
+  }
+}
+
+/* Tablet */
+@media(min-width: 501px) and (max-width: 768px) {
+  body {
+    background: blue;
+  }
+
+  #tablet h1 {
+    display: block;
+  }
+}
+
+/* Normal */
+@media(min-width: 769px) and (max-width: 1200px) {
+  body {
+    background: green;
+  }
+
+  #normal h1 {
+    display: block;
+  }
+}
+
+/* Widescreen */
+@media(min-width: 1201px) {
+  body {
+    background: black;
+  }
+
+  #widescreen h1 {
+    display: block;
+  }
+}
+
+/* Landscape */
+@media(max-height: 500px) {
+  body {
+    background: orange;
+  }
+
+  #landscape h1 {
+    display: block;
+  }
+
+}

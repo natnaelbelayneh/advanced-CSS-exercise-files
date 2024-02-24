@@ -1,0 +1,21 @@
+body {
+  background: #333;
+}
+
+.box {
+  background: white;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+/*
+animation-name: Specifies the name of the keyframe animation.
+animation-duration: Specifies the duration of the animation.
+animation-fill-mode: Specifies how the styles are applied before and after the animation.
+animation-delay: Specifies the delay before the animation starts.
+animation-timing-function: Specifies the timing function to use for the animation (e.g., ease, linear, ease-in, ease-out, ease-in-out).
+animation-iteration-count: Specifies the number of times the animation should repeat (infinite for indefinite).
+animation-direction: Specifies whether the animation should play forwards, backwards, or alternate between forwards and backwards.
+*/

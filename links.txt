@@ -1,0 +1,11 @@
+flex-box-josh      https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+
+css-generator      https://cssgenerator.pl/en/flexbox-generator/
+
+timing-function    https://www.joshwcomeau.com/animation/css-transitions/
+
+flex-box-yoksel    https://yoksel.github.io/flex-cheatsheet/#section-flex-shrink
+
+flex-box-game      https://flexboxfroggy.com/
+
+unresponsive       https://studentportal.dbu.edu.et/Account/Login

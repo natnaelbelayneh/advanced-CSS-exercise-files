@@ -1,0 +1,19 @@
+.parent{
+  position: relative;
+}
+
+
+.child_one{
+}
+
+
+.child_two{
+
+}
+
+
+.child_three{
+
+  position: sticky;
+  top: 100px;
+}

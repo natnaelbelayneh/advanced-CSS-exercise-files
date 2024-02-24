@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* For fixed */
+body {
+  min-height: 200vh;
+}
+
+.parent {
+
+  /* For sticky */
+  height: 90vh;
+
+  background-color: rgb(202, 178, 225);
+  padding: 10px;
+  font-size: 50px;
+
+  /* for showcasing relative with absolute */
+  margin: 100px;
+
+}
+
+
+.child_one {
+  background-color: aqua;
+}
+
+
+.child_two {
+  background-color: chartreuse;
+}
+
+
+.child_three {
+  background-color: red;
+}

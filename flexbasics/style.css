@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+  background: #f4f4f4;
+  border: #ccc solid 2px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 400px;
+}
+
+
+
+/* step 1 */
+.flex-container {
+  display: flex;
+  border: 1px solid red;
+
+}
+
+
+/* for one */
+.item-1{
+
+}
+
+/* for all */
+.item{
+
+}
+
+/* for many */
+.item-1{
+
+}
+.item-2{
+
+}
+.item-3{
+
+}
+
+
+
+
+/* flex-flow: <flex-direction> <flex-wrap>;*/

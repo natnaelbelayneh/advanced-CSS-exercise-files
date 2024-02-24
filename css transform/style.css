@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+/*
+  scale
+  rotateY for perspective
+  skew
+  translate   translateX  translateY translate3d
+  transform origin
+  perpective
+  perspective-origin
+*/
